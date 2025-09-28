@@ -1,3 +1,3 @@
-# Basic Web Development 1
+# Web Development Fundamentals
 
 ## Oefeningen 03.HTML media

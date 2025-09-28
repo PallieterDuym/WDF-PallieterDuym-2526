@@ -1,3 +1,3 @@
-# Basic Web Development 1
+# Web Development Fundamentals
 
 ## Oefeningen 02.HTML basis

@@ -1,4 +1,4 @@
-# Basic Web Development 1
+# Web Development Fundamentals
 
 - Academiejaar: 
 - Opleiding: 

@@ -1,3 +1,3 @@
 # Web Development Fundamentals
 
-## Oefeningen 06.CSS Designs
+## Oefeningen 12.AI

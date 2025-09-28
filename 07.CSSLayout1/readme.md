@@ -1,3 +1,3 @@
 # Web Development Fundamentals
 
-## Oefeningen 06.CSS Designs
+## Oefeningen 07.CSS Layout 1
