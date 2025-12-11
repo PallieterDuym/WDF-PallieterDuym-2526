@@ -1,0 +1,366 @@
+/* =========================================
+   1. NAVIGATIE
+========================================= */
+
+nav.menu {
+	background-color: #eee;
+	padding: 10px;
+}
+
+.menu ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+
+	/* oplossing */
+	/* TODO */
+}
+
+.menu a {
+	background-color: #f2f2f2;
+	border-radius: 6px;
+	color: #222;
+	display: inline-block;
+	padding: 6px 10px;
+	text-decoration: none;
+	transition: background 0.3s;
+}
+
+.menu a:hover,
+.menu a.active {
+	background-color: #c2c2c2;
+}
+
+
+/* =========================================
+   2. FOTOGALLERIJ
+========================================= */
+.gallery {
+	background: #f7f7f7;
+	padding: 10px;
+	width: 450px;
+
+	/* oplossing */
+	/* TODO */
+}
+
+.gallery img {
+	display: block;
+	max-width: 100px;
+}
+
+
+/* =========================================
+   3. TAG CLOUD
+========================================= */
+.tags {
+	background-color: #f2f2f2;
+	min-height: 300px;
+	padding: 10px;
+
+	/* oplossing */
+	/* TODO */
+}
+
+.tag {
+	background: #e9e9e9;
+	border-radius: 999px;
+	font-size: 0.9rem;
+	padding: 6px 10px;
+}
+
+
+/* =========================================
+   4. PRODUCTLIJST
+========================================= */
+.products {
+	background: #f7f7f7;
+	padding: 10px;
+	width: 360px;
+
+	/* oplossing */
+	/* TODO */
+}
+
+.product {
+	background: #dbeafe;
+	border-radius: 8px;
+	padding: 12px;
+
+	/* oplossing */
+	/* TODO */
+}
+
+
+/* =========================================
+   05. SPRINGEN
+========================================= */
+.jump-grid {
+	background: #f7f7f7;
+	padding: 10px;
+
+	/* oplossing */
+	/* TODO */
+}
+
+.jump-grid .man {
+	height: 100px;
+}
+
+.jump-grid .man.jump {
+	/* oplossing */
+	/* TODO */
+}
+
+
+/* =========================================
+   6. CHATBERICHTEN
+========================================= */
+.chat {
+	background: #f7f7f7;
+	max-width: 800px;
+	min-height: 180px;
+	padding: 10px;
+
+	/* oplossing */
+	/* TODO */
+}
+
+.msg {
+	background: #eee;
+	border-radius: 10px;
+	max-width: 50%;
+	padding: 8px 10px;
+}
+
+.msg.left {
+	background: #e5e7eb;
+
+	/* oplossing */
+	/* TODO */
+}
+
+.msg.right {
+	background: #d1fae5;
+
+	/* oplossing */
+	/* TODO */
+}
+
+
+/* =========================================
+   7. DRIE KOLOMMEN
+========================================= */
+.stats {
+	background: #f7f7f7;
+	padding: 10px;
+
+	/* oplossing */
+	/* TODO */
+}
+
+.block {
+	background: #fde68a;
+	border-radius: 8px;
+	flex: 1;
+	padding: 14px;
+	text-align: center;
+}
+
+.block.big {
+	/* oplossing */
+	/* TODO */
+}
+
+
+/* =========================================
+   8. CHECKOUT
+========================================= */
+.checkout {
+	background: #f7f7f7;
+	min-height: 100px;
+	padding: 12px;
+	width: 260px;
+
+	/* oplossing */
+	/* TODO */
+}
+
+
+/* =========================================
+   9. PROFIELKAART
+========================================= */
+.profile {
+	background: #f7f7f7;
+	padding: 12px;
+	width: 220px;
+
+	/* oplossing */
+	/* TODO */
+}
+
+.profile img {
+	border-radius: 50%;
+	width: 50%;
+}
+
+.follow {
+	background: #111;
+	border-radius: 8px;
+	color: white;
+	display: inline-block;
+	padding: 8px 12px;
+	text-decoration: none;
+}
+
+
+/* =========================================
+   10. LAYOUT MET SIDEBAR, GECENTREERD
+========================================= */
+.layout {
+	background: #eee;
+	padding: 10px;
+}
+
+.layout .wrapper {
+	background: #f7f7f7;
+	padding: 10px;
+	max-width: 700px;
+
+	/* oplossing */
+	/* TODO */
+}
+
+.sidebar {
+	background: #fecaca;
+	border-radius: 8px;
+	padding: 12px;
+
+	/* oplossing */
+	/* TODO */
+}
+
+.content {
+	background: #bbf7d0;
+	border-radius: 8px;
+	padding: 12px;
+}
+
+
+/* =========================================
+   11. KEYWORDS
+========================================= */
+.features {
+	background: #f7f7f7;
+	padding: 10px;
+	width: 360px;
+
+	/* oplossing */
+	/* TODO */
+}
+
+.features .item {
+	background: #e0e7ff;
+	border-radius: 8px;
+	padding: 8px 12px;
+}
+
+
+/* =========================================
+   12. BESTANDENLIJST
+========================================= */
+.files {
+	background: #f7f7f7;
+	padding: 10px;
+	width: 260px;
+
+	/* oplossing */
+	/* TODO */
+}
+
+.file {
+	background: #f3f4f6;
+	border-radius: 6px;
+	padding: 8px 10px;
+}
+
+.file.sticky {
+	background: #fecaca;
+
+	/* oplossing */
+	/* TODO */
+}
+
+
+/* =========================================
+   13. VIEWER MET THUMBNAILS
+========================================= */
+.viewer {
+	background: #f7f7f7;
+	padding: 10px;
+	width: 340px;
+
+	/* oplossing */
+	/* TODO */
+}
+
+.viewer .big {
+	background: #ddd;
+	display: block;
+	max-width: 400px;
+	width: 100%;
+}
+
+.thumb-row {
+	/* oplossing */
+	/* TODO */
+}
+
+.thumb-row img {
+	max-width: 80px;
+}
+
+
+/* =========================================
+   14. PRODUCTINFO
+========================================= */
+.product-card {
+	background: #f7f7f7;
+	padding: 10px;
+	width: 600px;
+
+	/* oplossing */
+	/* TODO */
+}
+
+.product-card .info {
+	/* oplossing */
+	/* TODO */
+}
+
+.prod-img {
+	/* oplossing */
+	/* TODO */
+}
+
+.buy {
+	/* oplossing */
+	/* TODO */
+}
+
+.product-card .info h4 {
+	margin: 0 0 6px 0;
+}
+
+.prod-img img {
+	max-width: 100%;
+}
+
+.buy .button {
+	background: #111;
+	border-radius: 8px;
+	color: white;
+	display: inline-block;
+	padding: 8px 12px;
+	text-decoration: none;
+}
