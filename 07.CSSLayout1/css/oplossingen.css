@@ -14,6 +14,9 @@ nav.menu {
 
 	/* oplossing */
 	/* TODO */
+	display: flex;
+	gap: 20px;
+	justify-content: center;
 }
 
 .menu a {
@@ -35,13 +38,18 @@ nav.menu {
 /* =========================================
    2. FOTOGALLERIJ
 ========================================= */
+
 .gallery {
 	background: #f7f7f7;
 	padding: 10px;
 	width: 450px;
-
 	/* oplossing */
-	/* TODO */
+	display: flex;
+	flex-wrap: wrap;
+	column-gap: 10px;
+	row-gap: 20px;;
+
+
 }
 
 .gallery img {
@@ -53,13 +61,19 @@ nav.menu {
 /* =========================================
    3. TAG CLOUD
 ========================================= */
+
 .tags {
 	background-color: #f2f2f2;
 	min-height: 300px;
 	padding: 10px;
 
 	/* oplossing */
-	/* TODO */
+	max-width: 600px;
+	display: flex;
+	flex-wrap: wrap;
+	gap: 8px;
+	align-content: center;
+
 }
 
 .tag {
@@ -73,13 +87,17 @@ nav.menu {
 /* =========================================
    4. PRODUCTLIJST
 ========================================= */
+
 .products {
 	background: #f7f7f7;
 	padding: 10px;
 	width: 360px;
 
 	/* oplossing */
-	/* TODO */
+	display: flex;
+	flex-wrap: wrap;
+	gap: 10px;
+	justify-content: space-between;
 }
 
 .product {
@@ -88,34 +106,40 @@ nav.menu {
 	padding: 12px;
 
 	/* oplossing */
-	/* TODO */
+	flex: 0 0 48%;
 }
 
 
 /* =========================================
    05. SPRINGEN
 ========================================= */
+
 .jump-grid {
 	background: #f7f7f7;
 	padding: 10px;
 
 	/* oplossing */
-	/* TODO */
+	display: flex;
+	height: 200px;
+	align-items: end;
+	column-gap: 20px;
+	
 }
-
 .jump-grid .man {
 	height: 100px;
 }
 
 .jump-grid .man.jump {
 	/* oplossing */
-	/* TODO */
+	align-self: start;
 }
+
 
 
 /* =========================================
    6. CHATBERICHTEN
 ========================================= */
+
 .chat {
 	background: #f7f7f7;
 	max-width: 800px;
@@ -123,7 +147,9 @@ nav.menu {
 	padding: 10px;
 
 	/* oplossing */
-	/* TODO */
+	display: flex;
+	flex-direction: column;
+
 }
 
 .msg {
@@ -137,26 +163,28 @@ nav.menu {
 	background: #e5e7eb;
 
 	/* oplossing */
-	/* TODO */
+	align-self: left;
 }
 
 .msg.right {
 	background: #d1fae5;
 
 	/* oplossing */
-	/* TODO */
+	align-self: flex-end;
 }
 
 
 /* =========================================
    7. DRIE KOLOMMEN
 ========================================= */
+
 .stats {
 	background: #f7f7f7;
 	padding: 10px;
 
 	/* oplossing */
-	/* TODO */
+	display: flex;
+	gap: 12px;
 }
 
 .block {
@@ -169,13 +197,14 @@ nav.menu {
 
 .block.big {
 	/* oplossing */
-	/* TODO */
+	flex: 2;
 }
 
 
 /* =========================================
    8. CHECKOUT
 ========================================= */
+
 .checkout {
 	background: #f7f7f7;
 	min-height: 100px;
@@ -183,20 +212,26 @@ nav.menu {
 	width: 260px;
 
 	/* oplossing */
-	/* TODO */
+	display: flex;
+	justify-content: space-between;
+	align-items: end;
 }
 
 
 /* =========================================
    9. PROFIELKAART
 ========================================= */
+
 .profile {
 	background: #f7f7f7;
 	padding: 12px;
 	width: 220px;
 
 	/* oplossing */
-	/* TODO */
+	display: flex;
+	gap: 10px;
+	flex-direction: column;
+	align-items: center;
 }
 
 .profile img {
@@ -217,6 +252,7 @@ nav.menu {
 /* =========================================
    10. LAYOUT MET SIDEBAR, GECENTREERD
 ========================================= */
+
 .layout {
 	background: #eee;
 	padding: 10px;
@@ -228,7 +264,10 @@ nav.menu {
 	max-width: 700px;
 
 	/* oplossing */
-	/* TODO */
+	display: flex;
+	margin: auto;
+	column-gap: 30px; 
+	
 }
 
 .sidebar {
@@ -237,7 +276,7 @@ nav.menu {
 	padding: 12px;
 
 	/* oplossing */
-	/* TODO */
+	flex: 0 0 120px;
 }
 
 .content {
@@ -250,13 +289,18 @@ nav.menu {
 /* =========================================
    11. KEYWORDS
 ========================================= */
+
 .features {
 	background: #f7f7f7;
 	padding: 10px;
 	width: 360px;
 
 	/* oplossing */
-	/* TODO */
+	display: flex;
+	flex-wrap: wrap;
+	gap: 12px;
+	align-items: center;
+
 }
 
 .features .item {
@@ -269,13 +313,17 @@ nav.menu {
 /* =========================================
    12. BESTANDENLIJST
 ========================================= */
+
 .files {
 	background: #f7f7f7;
 	padding: 10px;
 	width: 260px;
 
 	/* oplossing */
-	/* TODO */
+	display: flex;
+	flex-direction: column;
+	gap: 6px;
+
 }
 
 .file {
@@ -288,20 +336,23 @@ nav.menu {
 	background: #fecaca;
 
 	/* oplossing */
-	/* TODO */
+	order: -1;
 }
 
 
 /* =========================================
    13. VIEWER MET THUMBNAILS
 ========================================= */
+
 .viewer {
 	background: #f7f7f7;
 	padding: 10px;
 	width: 340px;
 
 	/* oplossing */
-	/* TODO */
+	display: flex;
+	flex-direction: column;
+	gap: 10px;
 }
 
 .viewer .big {
@@ -313,7 +364,9 @@ nav.menu {
 
 .thumb-row {
 	/* oplossing */
-	/* TODO */
+	display: flex;
+	column-gap: 10px;
+	justify-content: center;
 }
 
 .thumb-row img {
@@ -324,28 +377,31 @@ nav.menu {
 /* =========================================
    14. PRODUCTINFO
 ========================================= */
+
 .product-card {
 	background: #f7f7f7;
 	padding: 10px;
 	width: 600px;
 
 	/* oplossing */
-	/* TODO */
+	display: flex;
+	align-items: center;
+	gap: 20px;
 }
 
 .product-card .info {
 	/* oplossing */
-	/* TODO */
+	flex: 1;
 }
 
 .prod-img {
 	/* oplossing */
-	/* TODO */
+	flex: 0 0 120px;
 }
 
 .buy {
 	/* oplossing */
-	/* TODO */
+	flex: auto;
 }
 
 .product-card .info h4 {

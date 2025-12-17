@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="nl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Symbols+Outlined">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+    <title>De Leeshoek</title>
+</head>
+
+<body>
+    <header>
+        <img src="logo.png" alt="Logo De leeshoek">
+        <nav>
+            <ul>
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="contact.html">CONTACT</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="Studieplek_reserveren_form">
+            <h1>Studieplek reserveren</h1>
+            <p>Wil je een studieplek reserveren in De Leeshoek? Vul het formulier hieronder in en we bevestigen je
+                aanvraag via e-mail.</p>
+
+            <form>
+                <fieldset>
+                    <legend>Jouw gegevens</legend>
+                    <div>
+                        <label for="fname">Naam *</label>
+                        <input type="text" id="fname" placeholder="Voornaam Achternaam" required>
+                    </div>
+                    <div>
+                        <label for="email">E-mail *</label>
+                        <input type="email" id="email" placeholder="naam@voorbeeld.be" required>
+                    </div>
+                    <div>
+                        <label for="mobile">Telefoon</label>
+                        <input type="tel" id="mobile" placeholder="+32 4 ...">
+                    </div>
+                </fieldset>
+                <fieldset>
+                    <legend>Reservering</legend>
+                    <div>
+                        <label for="datum">Datum *</label>
+                        <input type="date" id="datum" required>
+                    </div>
+                    <div>
+                        <label for="plek">Type studieplek</label>
+                        <select id="plek">
+                            <option value="-1">Stille zone</option>
+                        </select>
+                    </div>
+                    <div>
+                        <label>Voorkeur tijdsblok</label>
+                        <label><input type="radio" name="Voormiddag" value="1" checked> Voormiddag</label>
+                        <label><input type="radio" name="Namiddag" value="2"> Namiddag</label>
+                        <label><input type="radio" name="Avond" value="3"> Avond</label>
+                    </div>
+                    <div>
+                        <label>voorzieningen</label>:
+                        <label><input type="checkbox" checked> Stopcontact</label>
+                        <label><input type="checkbox"> whiteboard</label>
+                        <label><input type="checkbox" checked> Pc nodig</label>
+                    </div>
+                    <div>
+                        <label for="desc">Opmerkingen *</label>
+                        <textarea id="desc" cols="40" rows="5" required
+                            placeholder="Extra info (bijv. voorkeur plaats, examenperiode …)"></textarea>
+                    </div>
+                    <div>
+                        <label><input type="checkbox">Ik ga akkoord met de afspraken</label>
+                        <label><input type="checkbox">Ik wil updates ontvangen</label>
+                    </div>
+                    <div>
+                        <button type="submit">Verzenden</button>
+                        <button type="reset">Wissen</button>
+                    </div>
+                </fieldset>
+            </form>
+        </section>
+        <section id="maps">
+            <h2>Vind ons</h2>
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2519.288313567604!2d4.3605062000000006!3d50.844345100000005!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c3c480e4d9f919%3A0x25fb998b6ef18d63!2sBaron%20Hortastraat%2012%2C%201000%20Brussel!5e0!3m2!1snl!2sbe!4v1765984392509!5m2!1snl!2sbe"
+                width="600" height="450" allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </section>
+    </main>
+    <footer>
+        <ul>
+            <li><span class="material-symbols-outlined">location_on</span> Bibliotheekstraat 12, 3000 Leuven</li>
+            <li><span class="material-symbols-outlined">mail</span> info@leeshoek.tld</li>
+            <li><span class="material-symbols-outlined">call</span> 0123/40.00.00</li>
+            <li><span class="fa-regular fa-clock"></span> Open van maandag tot zaterdag, 8u tot 21u.</li>
+        </ul>
+        <small>&copy; Stadsbibliotheek De Leeshoek — Alle rechten voorbehouden</small>
+    </footer>
+</body>
+
+</html>
